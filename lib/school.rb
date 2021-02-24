@@ -22,10 +22,9 @@ class School
     end
 
     def sort
-        new = @roster.map {|k, v | v.sort!}
-        @roster
-        # new.map {|i| }
-        # @roster.map {|k| p k}
+        @roster.map {|k, v | v.sort!}
+    
+
         
     end
  
